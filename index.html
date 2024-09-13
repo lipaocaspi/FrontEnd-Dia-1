@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acme Museum of Art</title>
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <title>CampusLands Museum of Art</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -12,8 +13,8 @@
             <h1>CampusLands Museum of Art</h1>
             <nav>
                 <ul>
-                    <li><a href="#">Exhibitions</a></li>
-                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#hero">Exhibitions</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
                     <li><a href="#">Events</a></li>
                     <li><a href="#">Visit</a></li>
                 </ul>
@@ -21,7 +22,7 @@
         </div>
     </header>
 
-    <section class="hero">
+    <section class="hero" id="hero">
         <div class="overlay">
             <h2>Welcome to the Acme Museum of Art</h2>
             <p>Explore centuries of creativity and human expression through our vast collection of masterpieces.</p>
@@ -31,5 +32,58 @@
             </div>
         </div>
     </section>
+
+    <section class="gallery" id="gallery">
+        <h2>Art Gallery</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="./images/starrynight.jpg" alt="Starry Night">
+            </div>
+            <div class="grid-item">
+                <img src="./images/monalisa.jpg" alt="Mona Lisa">
+            </div>
+            <div class="grid-item">
+                <img src="./images/meltingclocks.jpg" alt="Melting Clocks">
+            </div>
+            <div class="grid-item">
+                <img src="./images/thescream.png" alt="The Scream">
+            </div>
+            <div class="grid-item">
+                <img src="./images/GirlwithaPearlEarring.jpg" alt="The Girl With a Pearl Earring">
+            </div>
+            <div class="grid-item">
+                <img src="./images/LanascitadiVenere.jpg" alt="La Nascita di Venere">
+            </div>
+        </div>
+    </section>
+
+    <section class="visit-info">
+        <h2>Plan Your Visit</h2>
+        <div class="info-grid">
+            <div class="info-item">
+                <i class='bx bx-time-five'></i>
+                <h3>Opening Hours</h3>
+                <p>Tuesday - Sunday: 10am - 5pm<br>Closed on Mondays</p>
+            </div>
+            <div class="info-item">
+                <i class='bx bx-current-location'></i>
+                <h3>Location</h3>
+                <p>123 Art Street<br>Cityville, State 12345</p>
+            </div>
+            <div class="info-item">
+                <i class='bx bx-image'></i>
+                <h3>Current Exhibition</h3>
+                <p>"Modern Masters"<br>Until September 30, 2023</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>© 2024 CampusLands. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#">Terms of Service</a>
+            <a href="#">Privacy</a>
+        </div>
+    </footer>
 </body>
 </html>
