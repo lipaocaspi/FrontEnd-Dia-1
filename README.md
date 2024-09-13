@@ -1,1 +1,2 @@
 # PushUp - Dia 1 : Diseño FrontEnd
+El objetivo de este proyecto es desarrollar una interfaz web interactiva y visualmente atractiva para una galería de arte moderno. La plataforma permitirá a los usuarios explorar colecciones de arte, obtener información detallada sobre las obras y los artistas, y participar en actividades relacionadas con la galería, como exposiciones virtuales y visitas guiadas.
