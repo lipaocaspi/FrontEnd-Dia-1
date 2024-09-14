@@ -4,42 +4,42 @@ const paintings = [
         "name": "Starry Night",
         "author": "Vincent van Gogh",
         "about": "",
-        "picture": "../images/starrynight.jpg"
+        "picture": ".././images/starrynight.jpg"
     },
     {
         "id": "2",
         "name": "Mona Lisa",
         "author": "Leonardo da Vinci",
         "about": "",
-        "picture": "../images/monalisa.jpg"
+        "picture": ".././images/monalisa.jpg"
     },
     {
         "id": "3",
         "name": "The Persistence of Memory",
         "author": "Salvador Dalí",
         "about": "",
-        "picture": "../images/meltingclocks.jpg"
+        "picture": ".././images/meltingclocks.jpg"
     },
     {
         "id": "4",
         "name": "The Scream",
         "author": "Edvard Munch",
         "about": "",
-        "picture": "../images/thescream.png"
+        "picture": ".././images/thescream.png"
     },
     {
         "id": "5",
         "name": "The Girl With a Pearl Earring",
         "author": "Johannes Vermeer",
         "about": "",
-        "picture": "../images/GirlwithaPearlEarring.jpg"
+        "picture": ".././images/GirlwithaPearlEarring.jpg"
     },
     {
         "id": "6",
         "name": "La Nascita di Venere",
         "author": "Sandro Botticelli",
         "about": "",
-        "picture": "../images/LanascitadiVenere.jpg"
+        "picture": ".././images/LanascitadiVenere.jpg"
     }
 ]
 
